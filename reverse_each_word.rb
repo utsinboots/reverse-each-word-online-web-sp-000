@@ -12,6 +12,7 @@ def reverse_each_word(sentence)
     array.reverse()
     to_array.join(" ")
   end
+  
 end
   
   
