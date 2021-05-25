@@ -11,8 +11,8 @@ def reverse_each_word(sentence)
   to_array.join(" ")   #returns the reversed array as a string
 =end
 
-
-  to_array.collect do |array| #using .collect method
+#using .collect method
+  to_array.collect do |array| 
     array.reverse!()
   end
   to_array.join(" ")
