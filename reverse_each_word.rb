@@ -9,10 +9,9 @@ def reverse_each_word(sentence)
 =end
 
   to_array.collect do |array| 
-    array.reverse()
-    to_array.join(" ")
+    array.reverse!()
   end
-  
+  to_array.join(" ")
 end
   
   
