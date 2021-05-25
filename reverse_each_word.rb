@@ -1,12 +1,11 @@
 require 'pry'
 def reverse_each_word(sentence)
   to_array = sentence.split(" ") #string conversion to array with spaces
-  puts to_array
-  to_string = ""
-  binding.pry
+  
   to_array.each do |array| 
-    to_string << array.joina
-    
+    array.reverse()
+  
+  
     
     string_reverse = array.reverse
   end
