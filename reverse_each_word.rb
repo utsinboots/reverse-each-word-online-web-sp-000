@@ -10,7 +10,7 @@ def reverse_each_word(sentence)
 
 
 #using the .collect method
-  to_array.collect {|array| array.revers()}
+  to_array.collect {|array| array.reverse()}
   to_array.join(" ")
 
 end
