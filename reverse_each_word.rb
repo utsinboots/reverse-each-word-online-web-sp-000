@@ -6,6 +6,10 @@ def reverse_each_word(sentence)
   end
   string_reverse = to_array.join (" ")  #now converting the reversed array back to string
   return string_reverse
+
+  string_
+
+
 end
   
   
