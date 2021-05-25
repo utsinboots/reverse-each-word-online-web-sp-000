@@ -1,6 +1,5 @@
 require 'pry'
 
-=begin
 def reverse_each_word(sentence)
   to_array = sentence.split(" ") #sentence (a string) converts to array with spaces
 
@@ -12,13 +11,16 @@ def reverse_each_word(sentence)
 
 
 #using the .collect method
-  to_array.collect {|array| array.reverse!}
+  to_array.collect {|array| array.reverse}
   to_array.join(" ")
 
 end
-=end
 
+
+
+=begin
 def reverse_each_word(sentence)
   sentence.split(" ").collect {|array| array.reverse}.join(" ")
 end
+=end
   
