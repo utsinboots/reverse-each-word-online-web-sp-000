@@ -6,9 +6,7 @@ def reverse_each_word(sentence)
      array.reverse!()  #for each array element, this reverses every element in the same position
      end
   to_array.join(" ")   #returns the reversed array as a string
-  
-  #string_reverse = to_array.join(" ")  #now converting the reversed array back to string
-  #return string_reverse
+
 
 =begin
   to_array.collect do |array| #using .collect method
