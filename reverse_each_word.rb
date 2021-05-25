@@ -7,10 +7,11 @@ def reverse_each_word(sentence)
   string_reverse = to_array.join(" ")  #now converting the reversed array back to string
   return string_reverse
 
- to_array2 = sentence.split(" ")
- to_array2.collect do |array2| 
-   string.reverse}
-
+  to_array2 = sentence.split(" ")
+  to_array2.collect do |array2| 
+    array2.reverse().join(" ")
+  end
+  
 end
   
   
